@@ -1,0 +1,1 @@
+﻿{"Added":[{"Id":50200,"Kind":14,"Name":"MostBorrowBook","PackagePath":"/src/Qeries/MostBorrowBook.al"}],"Modified":[{"Id":50203,"Kind":10,"Name":"BorrowBook","PackagePath":"/src/Tables/BorrowBook.al"},{"Id":50207,"Kind":12,"Name":"BorrowBookList","PackagePath":"/src/Pages/BorrowBookList.al"}],"Removed":[]}

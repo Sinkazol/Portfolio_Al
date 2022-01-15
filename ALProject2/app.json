@@ -1,0 +1,25 @@
+{
+  "id": "0084fa06-140c-46d4-841b-8409ad0526b6",
+  "name": "ALProject2",
+  "publisher": "Mr.Espresso",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "showMyCode": true,
+  "runtime": "6.0"
+}
