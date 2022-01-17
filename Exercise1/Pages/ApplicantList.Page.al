@@ -1,4 +1,4 @@
-page 50057 Applicant
+page 50057 ApplicantList
 {
     PageType = List;
     ApplicationArea = All;

@@ -19,9 +19,12 @@ table 50053 Applicant
             DataClassification = ToBeClassified;
             trigger OnValidate()
             var
-                CheckSocialSecurityNumber: Codeunit CheckSocialSecurityNumber;
+                ApplicantRec: Record Applicant;
             begin
-                CheckSocialSecurityNumber.Run()
+
+                ApplicantRec.SETRANGE(SocialSecurityNumber, ApplicantRec.SocialSecurityNumber);
+                IF ApplicantRec.FINDFIRST THEN
+                    fieldERROR(SocialSecurityNumber, 'Number already exists ');
             end;
 
         }

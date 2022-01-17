@@ -22,6 +22,10 @@ page 50053 HospitalList
                     ApplicationArea = All;
 
                 }
+                field(SumOfVaccine; rec.SumOfVaccine)
+                {
+                    ApplicationArea = all;
+                }
             }
         }
     }
