@@ -9,10 +9,11 @@ codeunit 50051 ApplicantMessage
 
     begin
         HospitalVaccinRec.Get(Rec);
-        while HospitalVaccinRec.Next() <> 0 do begin
+        repeat
             if HospitalVaccinRec.VaccineId = Rec.VaccineId then begin
                 Message('The vaccine is avalable in %1 hospital.', HospitalVaccinRec.HospitalName);
             end;
-        end;
+        until HospitalVaccinRec.Next() = 0;
     end;
+
 }
